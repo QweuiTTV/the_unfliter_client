@@ -4,7 +4,7 @@
 import socket
 
 s = socket.socket()
-host = 185.3.95.111
+host = "185.3.95.111"
 port = 8080
 s.connect((host, port))
 print('Connected to chat server')
